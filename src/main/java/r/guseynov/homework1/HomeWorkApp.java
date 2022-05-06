@@ -8,13 +8,15 @@ public class HomeWorkApp {
         compareNumbers();
 
     }
-      // Task 2
+
+    // Task 2
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
-     // Task 3
+
+    // Task 3
     public static void checkSumSign() {
         int a = 7, b = 8;
         int sum = a + b;
@@ -24,7 +26,8 @@ public class HomeWorkApp {
             System.out.println("Сумма отрицательная");
         }
     }
-     // Task 4
+
+    // Task 4
     public static void printColor() {
         int value = 11;
         if (value <= 0) {
@@ -35,13 +38,13 @@ public class HomeWorkApp {
             System.out.println("Зеленый");
         }
     }
-
+    // task 5
     public static void compareNumbers() {
         int a = 11;
         int b = 9;
         if (a >= b) {
             System.out.println("a >= b");
-            
+
         }
 
     }
