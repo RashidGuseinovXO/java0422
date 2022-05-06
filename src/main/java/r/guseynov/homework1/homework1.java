@@ -1,6 +1,6 @@
 package r.guseynov.homework1;
 
-public class HomeWorkApp {
+public class homework1 {
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
