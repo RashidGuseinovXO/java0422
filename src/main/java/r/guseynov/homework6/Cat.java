@@ -8,9 +8,9 @@ public class Cat extends Animal {
     @Override
     public void run(int length) {
         if (length <= 200) {
-            System.out.println(this + getName() + " Бежит " + length + " метров");
+            System.out.println(this + " Бежит " + length + " метров");
             } else {
-            System.out.println(this + getName() + " Не может пробежать " + length + " метров");
+            System.out.println(this  + " Не может пробежать " + length + " метров");
         }
     }
 
@@ -21,6 +21,6 @@ public class Cat extends Animal {
 
     @Override
     public String toString() {
-        return "Кот по имени " + getName();
+        return " Кот по имени " + getName();
     }
 }
