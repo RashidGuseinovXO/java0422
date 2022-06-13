@@ -1,0 +1,7 @@
+package r.guseynov.homework1;
+
+public class Cat extends Animal {
+    public Cat(String name) {
+        super("Cat", name, 200, 20, 2);
+    }
+}
